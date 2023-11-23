@@ -1,6 +1,136 @@
-header {
-    background-color: blue;
+/* common styes */
+body {
+    background-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #434455;
+
 }
-.title {
-    color: brown;
+
+ul {
+    list-style-type: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 360px;
+  }
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ======== header mobile styles ======== */
+@media screen and (max-width: 767px) {
+    .nav-list-btn {
+        display: none;
+    }
+}
+.nav {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+}
+.header {
+    padding: 10px 0;
+}
+
+
+/* / ======== header mobile styles ======== */
+
+/* ======== header tablet styles ======== */
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 736px;
+    }
+    .nav-list-btn {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    .nav-list {
+        align-items: center;
+        gap: 28px;
+
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .nav-link {
+        color: #000;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        position: relative;
+    }
+    .btn-header {
+        color:#2C2C2C;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        width: 98px;
+        height: 32px;
+        padding: 6px 18px;
+        border: none;
+        border-radius: 30px;
+        background-color: #BBF330;
+    }
+    .nav-list-link:first-child .nav-link {
+        color: #BBF330;
+    }
+    .nav-list-link:first-child .nav-link::after {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #BBF330;
+        content: "";
+        height: 1px;
+    }
+
+  }
+
+/* / ======== header tablet styles ======== */
+
+/* ======== header desktop styles ======== */
+@media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+
+/* / ======== header desktop styles ======== */
