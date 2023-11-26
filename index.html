@@ -22,29 +22,58 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-            <a class="logo" href="./index.html">
+                <a class="logo" href="./index.html">
                 <svg width="66" height="52">
                     <use href="./img/icons.svg#icon-logo"></use>
                 </svg>
-            </a>
-            <div class="nav-list-btn">
-                <ul class="nav-list">
+                </a>
+                <div class="nav-list-btn">
+                    <ul class="nav-list">
                     <li class="nav-list-link"><a class="nav-link" href="">Home</a></li>
                     <li class="nav-list-link"><a class="nav-link" href="">About</a></li>
                     <li class="nav-list-link"><a class="nav-link" href="">Service</a></li>
                     <li class="nav-list-link"><a class="nav-link" href="">Menu</a></li>
                     <li class="nav-list-link"><a class="nav-link" href="">Contact</a></li>
-                </ul>
-                <button class="btn-header" type="button">Order Now</button>
-            </div>
-           
-        </nav>
+                 </ul>
+                    <button class="btn-header" type="button">Order Now</button>
+                </div>
+                    <input class="menu-toggle" type="checkbox" id="toggle" />
+
+                    <label class="mobile-nav-btn" for="toggle">
+                    <span class="nav-mobile-menu-icon"></span>
+                    </label>
+
+                
+            
+                
+            
+            </nav>
+        
         </div>
         
     </header>
     <main></main>
 
     <footer></footer>
+
+    <div class="mobile-menu is-open">
+        <label class="mobile-nav-close-btn">
+            <span class="nav-mobile-menu-close-btn-icon"></span>
+        </label>           
+        <nav>
+           <ul>
+                
+                <input class="mobile-input" type="checkbox" id="mobile-list">
+                <label class="mobile-label" for="mobile-list"><li class="mobile-list-text">Home</li></label>
+                
+                
+               <li class="mobile-menu-list">About</li>
+               <li class="mobile-menu-list">Service</li>
+               <li class="mobile-menu-list">Menu</li>
+               <li class="mobile-menu-list">Contact</li>
+           </ul>
+        </nav>
+    </div>
     
     
 </body>
