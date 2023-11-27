@@ -34,6 +34,7 @@ ol {
     padding-left: 16px;
     padding-right: 16px;
     max-width: 360px;
+    background-color: #FEFEFE;
   }
 
 
@@ -119,6 +120,7 @@ button {
 .header {
     padding: 10px 0;
     background-color: #FEFEFE;
+    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
 }
 
 
@@ -315,3 +317,71 @@ button {
   }
 
 /* / ======== header desktop styles ======== */
+
+/* ======== hero mobile styles ======== */
+.hero-section {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+    
+}
+.hero-title {
+    display: block;
+    margin-bottom: 28px;
+    width: 280px;
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-text {
+    display: block;
+    margin-bottom: 32px;
+    width: 266px;
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.hero-section-btn {
+    border-radius: 30px;
+    background: #BBF330;
+    border: none;
+    color: #2C2C2C;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    padding: 6px 18px;
+}
+@media scren and (max-width: 767px) {
+    .hero-picture {
+        
+    }
+}
+
+/* / ======== hero mobile styles ======== */
+
+/* ======== hero tablet styles ======== */
+@media screen and (min-width: 768px) {
+    .hero-title {
+        color: #2C2C2C;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 120%;
+        width: 537px;
+    }
+    .hero-text {
+    font-size: 16px;
+    line-height: 150%;
+    width: 336px;
+
+    }
+
+
+}
+
+
+
+/* / ======== hero tablet styles ======== */
