@@ -126,6 +126,7 @@ button {
     position: fixed;
     z-index: 9999;
     transform: translateX(100%);
+    transition: transform 250ms linear;
     width: 130px;
     height: 255px;
     position: fixed;
@@ -138,15 +139,7 @@ button {
 .mobile-menu.is-open {
     transform: translateX(0%);
 }
-.mobile-menu-list {
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-bottom: 16px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-}
+
 
 .mobile-nav-close-btn {
     display: flex;
@@ -192,8 +185,49 @@ button {
 .nav-mobile-menu-close-btn-icon {
     background-color: transparent;
 }
-.mobile-input:checked + .mobile-label .mobile-list-text {
+.mobile-menu-list {
+    display: block;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.mobile-input-1:checked + .mobile-label-1 .mobile-menu-list {
     background-color: #BBF330;
+    border-radius: 30px 0px 0px 0px;
+}
+.mobile-input-2:checked + .mobile-label-2 .mobile-menu-list {
+    background-color: #BBF330;
+}
+.mobile-input-3:checked + .mobile-label-3 .mobile-menu-list {
+    background-color: #BBF330;
+}
+.mobile-input-4:checked + .mobile-label-4 .mobile-menu-list {
+    background-color: #BBF330;
+}
+.mobile-input-5:checked + .mobile-label-5 .mobile-menu-list {
+    background-color: #BBF330;
+    border-radius: 0px 0px 30px 30px;
+}
+.mobile-input-1,
+.mobile-input-2,
+.mobile-input-3,
+.mobile-input-4,
+.mobile-input-5 {
+    appearance: none;
+    position: absolute;
+    z-index: 99;
+}
+.mobile-label-1,
+.mobile-label-2,
+.mobile-label-3,
+.mobile-label-4,
+.mobile-label-5 {
+    display: block;
 }
 
 
