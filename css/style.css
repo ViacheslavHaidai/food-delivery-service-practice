@@ -322,7 +322,7 @@ button {
 .hero-section {
     padding-top: 60px;
     padding-bottom: 50px;
-    
+    position: relative;
     
 }
 .hero-title {
@@ -355,9 +355,9 @@ button {
     cursor: pointer;
     padding: 6px 18px;
 }
-@media scren and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .hero-picture {
-        
+        display: none;
     }
 }
 
@@ -371,14 +371,54 @@ button {
         font-weight: 700;
         line-height: 120%;
         width: 537px;
+        margin-bottom: 44px;
     }
     .hero-text {
     font-size: 16px;
     line-height: 150%;
     width: 336px;
+    margin-bottom: 40px;
 
     }
+    .hero-picture {
+        
+        display: block;
+        border: solid 14px #FFE550;
+        border-radius: 50%;
+        object-fit: contain;
+        z-index: 9999;
 
+    }
+    .hero-image {
+        border-radius: 50%;
+    }
+    .hero-picture-wrapper {
+        position: absolute;
+        top: 164px;
+        right: 54px;
+    }
+    .hero-icon-1 {
+        position: absolute;
+        top: 146px;
+        right: -8px;
+        z-index: 99999;
+        width: 34px;
+        height: 28px;
+        background-color: #FFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+    }
+    .hero-icon-2 {
+        position: absolute;
+        top: 146px;
+        left: -8px;
+        z-index: 99999;
+        width: 34px;
+        height: 28px;
+        background-color: #FFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+    }
 
 }
 

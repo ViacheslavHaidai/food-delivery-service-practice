@@ -57,22 +57,34 @@
         <!-- hero section -->
         <section class="hero-section">
             <div class="container">
-                <h2 class="hero-title">Enjoy Your Favorite Food From Anywhere</h2>
-            <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-            <button class="hero-section-btn" type="button">Order Now</button>
-            </div>
-
-            <picture class="hero-picture">
-                <source media="(min-width: 768px)"
-                srcset="./img/hero-picture-tablet-1.jpg 1x, ./img/hero-picture-tablet-1@2x.jpg 2x" 
-                type="image/jpg" />
-
-                <source media="(min-width: 1280px)"
-                srcset="./img/hero-picture-desktop-1.jpg 1x, ./img/hero-picture-desktop-1@2x.jpg 2x"
-                type="image/jpg" />
+                <h2 class="hero-title">Enjoy Your Favorite Food From Anywhere
+                </h2>
                 
-                <img src="./img/hero-picture-tablet-1.jpg" alt="meal example" loading="lazy">
-            </picture>
+                   
+                <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
+                <button class="hero-section-btn" type="button">Order Now</button>
+                    
+                    <div class="hero-picture-wrapper">
+                        <picture class="hero-picture">
+    
+                            <source media="(min-width: 1280px)"
+                                srcset="./img/hero-picture-desktop-1.jpg 1x, ./img/hero-picture-desktop-1@2x.jpg 2x"
+                                type="image/jpg" />
+                
+                            <source media="(min-width: 768px)"
+                                srcset="./img/hero-picture-tablet-1.jpg 1x, ./img/hero-picture-tablet-1@2x.jpg 2x" 
+                                type="image/jpg" />
+                
+                                
+                            <img class="hero-image" src="./img/hero-picture-tablet-1.jpg" alt="meal example" loading="lazy">
+                        </picture>
+                        <span class="hero-icon-1"></span>
+                        <span class="hero-icon-2"></span>
+                    </div>
+                
+                
+            </div>
+                
             
         </section>
     </main>
