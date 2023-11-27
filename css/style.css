@@ -106,8 +106,10 @@ button {
     .menu-toggle {
         appearance: none;
     }
+    
    
 }
+
 .nav {
     display: flex;
 }
@@ -292,6 +294,12 @@ button {
         height: 1px;
     }
     .mobile-menu-btn {
+        display: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .mobile-nav-btn {
         display: none;
     }
 
