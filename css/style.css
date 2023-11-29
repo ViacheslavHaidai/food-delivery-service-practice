@@ -322,7 +322,6 @@ button {
 .hero-section {
     padding-top: 60px;
     padding-bottom: 50px;
-    position: relative;
     
 }
 .hero-title {
@@ -383,27 +382,32 @@ button {
     .hero-section-pictures {
         display: flex;
         gap: 20px;
+        
     }
     .hero-picture {
         display: block;
         border: solid 14px #FFE550;
         border-radius: 50%;
         object-fit: contain;
-        z-index: 9999;
-
+        z-index: 99;
     }
     .hero-image {
         border-radius: 50%;
     }
+    
+    .container {
+        position: relative;
+    }
     .hero-picture-wrapper {
         position: absolute;
-        top: 164px;
-        right: 54px;
+        top: 88px;
+        right: 24px;
     }
     .hero-button-icon-1 {
         position: absolute;
-        top: 146px;
-        right: -8px;
+        top: 50%;
+        left: 97%;
+        transform: translate(-50%, -50%);
         z-index: 99999;
         width: 34px;
         height: 28px;
@@ -416,8 +420,9 @@ button {
     }
     .hero-button-icon-2 {
         position: absolute;
-        top: 146px;
-        left: -8px;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
         z-index: 99999;
         width: 34px;
         height: 28px;
@@ -488,6 +493,7 @@ button {
     .hero-icon-2 {
         background-color: transparent;
     }
+
 
 
 }
@@ -517,13 +523,13 @@ button {
     .hero-icon-2::before,
     .hero-icon-2::after {
         width: 26px;
-        height: 2px;
+        height: 3px;
     }
     .hero-icon-1,
     .hero-icon-1::before,
     .hero-icon-1::after {
         width: 26px;
-        height: 2px;
+        height: 3px;
     }
     .hero-icon-1::before {
         top: 8px;
@@ -541,11 +547,22 @@ button {
         top: 8px;
         
     }
-    .hero-button-icon-1 {
-        top: 270px
+    .hero-section {
+        padding-top: 160px;
     }
-    .hero-button-icon-2 {
-        top: 270px
+    .hero-picture-wrapper {
+        position: absolute;
+        top: -146px;
+    }
+    .hero-title {
+        margin-bottom: 28px;
+        max-width: 460px;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .hero-text {
+        width: 510px;
     }
 }
 
