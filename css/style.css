@@ -571,7 +571,10 @@ button {
 
 /* ======== special offer mobile styles ======== */
 .special-offer {
+    padding-top: 50px;
+    padding-bottom: 72px;
     background-color: #FFE550;
+
 }
 
 /* / ======== special offer mobile styles ======== */
