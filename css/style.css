@@ -570,11 +570,47 @@ button {
 
 
 /* ======== special offer mobile styles ======== */
-.special-offer {
+.special-offer .container {
     padding-top: 50px;
     padding-bottom: 72px;
     background-color: #FFE550;
 
 }
+@media screen and (max-width: 767px) {
+    .special-offer-picture-tablet-wrapper {
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .special-offer-desktop-mobile-picture {
+        display: none;
+
+    }
+    
+}
 
 /* / ======== special offer mobile styles ======== */
+
+/* ======== special offer tablet styles ======== */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .special-offer-picture-tablet-wrapper {
+        display: flex;
+        align-items: baseline;
+        gap: 44px;
+    }
+}
+
+/* / ======== special offer tablet styles ======== */
+
+
+
+
+/* ======== special offer desktop styles ======== */
+@media screen and (min-width: 1280px) {
+    .special-offer-picture-tablet-wrapper {
+        display: none;
+    }
+}
+
+/* / ======== special offer desktop styles ======== */
