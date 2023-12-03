@@ -56,7 +56,7 @@ button {
 /* ======== header mobile styles ======== */
 @media screen and (max-width: 767px) {
     .container {
-        max-width: 288px;
+        max-width: 320px;
     }
     .nav-list-btn {
         display: none;
@@ -304,11 +304,12 @@ button {
 
 }
 .special-offer-picture-wrapper {
-    background-image: url(../img/special-offer/special-offer-apple-background.png);
-    background-position: center 82px;
-    background-repeat: no-repeat;
+    background-image: url(../img/special-offer/special-offer-apple-background.png), url(../img/special-offer/special-offer-apple-background-white-cirkle.png);
+    background-position: center 82px, center 70px;
+    background-repeat: no-repeat, no-repeat;
     padding-top: 40px;
     padding-bottom: 60px;
+    
 }
 .special-offer-title {
     color: #2C2C2C;
@@ -316,10 +317,7 @@ button {
     font-weight: 700;
     line-height: normal;
 }
-.special-offer-picture {
-    border-radius: 50%;
-    box-shadow: 0px 30px 5px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
-}
+
 @media screen and (min-width: 480px) {
     .special-offer {
         background-image: url(../img/special-offer/special-offer-background-mobile-480.png);
@@ -339,15 +337,28 @@ button {
     }
     
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    .special-offer-desktop-mobile-picture {
-        display: none;
 
+@media screen and (max-width: 767px) and (min-width: 1280px) {
+   
+    .special-offer-apple-shadow-tablet {
+        display: none;
     }
-    
+}
+.special-offer-picture-apple-wrapper {
+    position: relative;
     
 }
-
+.special-offer-apple-shadow-mobile-desktop {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+.special-offer-desktop-mobile-picture {
+    position: relative;
+    z-index: 999;
+}
 
 
 /* / ======== special offer mobile styles ======== */
@@ -574,6 +585,8 @@ button {
         display: flex;
         align-items: baseline;
         gap: 44px;
+        justify-content: end;
+        padding-top: 142px;
     }
     .special-offer {
     background-image: url(../img/special-offer/special-offer-background-tablet.png);
@@ -581,9 +594,24 @@ button {
     background-size: cover;
     background-position: center top;
     padding-top: 20px;
-        background-size: 768px;
+    background-size: 768px;
     }
+   .special-offer-apple-shadow-tablet {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   }
+   .special-offer-apple-shadow-mobile-desktop {
+        display: none;
+   }
    
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .special-offer-desktop-mobile-picture {
+        display: none;
+
+    }
     
 }
 
