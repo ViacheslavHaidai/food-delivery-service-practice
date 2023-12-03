@@ -291,6 +291,7 @@ button {
 /* / ======== hero mobile styles ======== */
 
 /* ======== special offer mobile styles ======== */
+
 .special-offer {
     padding-top: 16px;
     padding-bottom: 72px;
@@ -302,6 +303,23 @@ button {
     
 
 }
+.special-offer-picture-wrapper {
+    background-image: url(../img/special-offer/special-offer-apple-background.png);
+    background-position: center 82px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.special-offer-title {
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+.special-offer-picture {
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
 @media screen and (min-width: 480px) {
     .special-offer {
         background-image: url(../img/special-offer/special-offer-background-mobile-480.png);
@@ -314,7 +332,6 @@ button {
     .special-offer-picture-tablet-wrapper {
         display: none;
     }
-    
     .special-offer-desktop-mobile-picture {
         display: flex;
         align-items: center;
