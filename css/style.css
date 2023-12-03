@@ -1,4 +1,5 @@
-/* common styes */
+
+/* ======== common styes ======== */
 body {
     background-color: #FFF;
     font-family: "Roboto", sans-serif;
@@ -50,9 +51,13 @@ a {
 button {
     cursor: pointer;
 }
+/* / ======== common styes ======== */
 
 /* ======== header mobile styles ======== */
 @media screen and (max-width: 767px) {
+    .container {
+        max-width: 288px;
+    }
     .nav-list-btn {
         display: none;
     }
@@ -105,6 +110,11 @@ button {
     .menu-toggle {
         appearance: none;
     }
+    .nav {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
     
    
 }
@@ -231,17 +241,96 @@ button {
 .mobile-label-5 {
     display: block;
 }
+/* / ======== header mobile styles ======== */
 
-
+/* ======== hero mobile styles ======== */
 @media screen and (max-width: 767px) {
-    .nav {
-        justify-content: space-between;
-        align-items: center;
+    .hero-picture-wrapper {
+        display: none;
     }
-
+    
+}
+.hero-section {
+    padding-top: 60px;
+    padding-bottom: 16px;
+    
+}
+.hero-title {
+    display: block;
+    margin-bottom: 28px;
+    width: 280px;
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-text {
+    display: block;
+    width: 266px;
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
-/* / ======== header mobile styles ======== */
+    
+.hero-section-btn {
+    border-radius: 30px;
+    background: #BBF330;
+    border: none;
+    color: #2C2C2C;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+    padding: 6px 18px;
+}
+
+
+/* / ======== hero mobile styles ======== */
+
+/* ======== special offer mobile styles ======== */
+.special-offer {
+    padding-top: 16px;
+    padding-bottom: 72px;
+    background-image: url(../img/special-offer/special-offer-background-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 84px;
+
+}
+@media screen and (min-width: 480px) {
+    .special-offer {
+        background-image: url(../img/special-offer/special-offer-background-mobile-480.png);
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .special-offer-picture-tablet-wrapper {
+        display: none;
+    }
+    
+    .special-offer-desktop-mobile-picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .special-offer-desktop-mobile-picture {
+        display: none;
+
+    }
+    
+    
+}
+
+
+
+/* / ======== special offer mobile styles ======== */
+
 
 /* ======== header tablet styles ======== */
 @media screen and (min-width: 768px) {
@@ -303,72 +392,12 @@ button {
         display: none;
     }
 
-  }
+  
 
 /* / ======== header tablet styles ======== */
 
-/* ======== header desktop styles ======== */
-@media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }
-
-/* / ======== header desktop styles ======== */
-
-/* ======== hero mobile styles ======== */
-@media screen and (max-width: 767px) {
-    .container {
-        max-width: 288px;
-    }
-    
-}
-.hero-section {
-    padding-top: 60px;
-    padding-bottom: 16px;
-    
-}
-.hero-title {
-    display: block;
-    margin-bottom: 28px;
-    width: 280px;
-    color: #2C2C2C;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-}
-.hero-text {
-    display: block;
-    width: 266px;
-    color: #2C2C2C;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.4;
-}
-
-    
-.hero-section-btn {
-    border-radius: 30px;
-    background: #BBF330;
-    border: none;
-    color: #2C2C2C;
-    text-align: right;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 150%;
-    cursor: pointer;
-    padding: 6px 18px;
-}
-@media screen and (max-width: 767px) {
-    .hero-picture-wrapper {
-        display: none;
-    }
-}
-
-/* / ======== hero mobile styles ======== */
-
 /* ======== hero tablet styles ======== */
-@media screen and (min-width: 768px) {
+
     .hero-section {
         padding-bottom: 20px;
     }
@@ -508,8 +537,41 @@ button {
 
 /* / ======== hero tablet styles ======== */
 
-/* ======== hero desktop styles ======== */
+/* ======== special offer tablet styles ======== */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .special-offer-picture-tablet-wrapper {
+        display: flex;
+        align-items: baseline;
+        gap: 44px;
+    }
+    .special-offer {
+    background-image: url(../img/special-offer/special-offer-background-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    padding-top: 20px;
+
+    }
+   
+    
+}
+
+/* / ======== special offer tablet styles ======== */
+
+/* ======== header desktop styles ======== */
 @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  
+
+/* / ======== header desktop styles ======== */
+
+
+
+
+/* ======== hero desktop styles ======== */
+
     .hero-picture {
         border: solid 26px #FFE550;
     }
@@ -572,78 +634,12 @@ button {
     .hero-text {
         width: 510px;
     }
-}
+
 
 /* / ======== hero desktop styles ======== */
 
-
-/* ======== special offer mobile styles ======== */
-.special-offer {
-    padding-top: 16px;
-    padding-bottom: 72px;
-    background-image: url(../img/special-offer/special-offer-background-mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left 84px;
-
-}
-@media screen and (min-width: 480px) {
-    .special-offer {
-        background-image: url(../img/special-offer/special-offer-background-mobile-480.png);
-    }
-    
-}
-@media screen and (max-width: 767px) {
-    .special-offer-picture-tablet-wrapper {
-        display: none;
-    }
-    
-    .special-offer-desktop-mobile-picture {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-}
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    .special-offer-desktop-mobile-picture {
-        display: none;
-
-    }
-    
-    
-}
-
-
-
-/* / ======== special offer mobile styles ======== */
-
-/* ======== special offer tablet styles ======== */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    .special-offer-picture-tablet-wrapper {
-        display: flex;
-        align-items: baseline;
-        gap: 44px;
-    }
-    .special-offer {
-    background-image: url(../img/special-offer/special-offer-background-tablet.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left top;
-    padding-top: 20px;
-
-    }
-   
-    
-}
-
-/* / ======== special offer tablet styles ======== */
-
-
-
-
 /* ======== special offer desktop styles ======== */
-@media screen and (min-width: 1280px) {
+
     .special-offer-picture-tablet-wrapper {
         display: none;
     }
@@ -653,3 +649,4 @@ button {
 }
 
 /* / ======== special offer desktop styles ======== */
+
