@@ -584,9 +584,8 @@ button {
     .special-offer-picture-tablet-wrapper {
         display: flex;
         align-items: baseline;
-        gap: 44px;
         justify-content: end;
-        padding-top: 45px;
+        padding-top: 36px;
     }
     .special-offer {
     background-image: url(../img/special-offer/special-offer-background-tablet.png);
@@ -601,20 +600,34 @@ button {
         background-position: 15px 127px, left 112px;
         background-repeat: no-repeat, no-repeat;
         padding-top: 40px;
-        padding-bottom: 60px;
+        padding-bottom: 130px;
+        height: 
     }
     .special-offer-picture-1-wrapper {
-        position: relative;
+        margin-right: 76px;
+       position: relative;
     }
-    
+    .special-offer-picture {
+        position: relative;
+        z-index: 9999999;
+
+    }
     .special-offer-apple-shadow-tablet {
     position: absolute;
-    left: 0;
-    bottom: 0;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
    }
    .special-offer-apple-shadow-mobile-desktop {
         display: none;
    }
+   .special-offer-picture-2-3-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 44px;
+   }
+   
    
     
 }
