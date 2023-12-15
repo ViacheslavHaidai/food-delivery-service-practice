@@ -24,7 +24,7 @@
             <nav class="nav">
                 <a class="logo" href="./index.html">
                 <svg width="66" height="52">
-                    <use href="./img/sprite.svg#icon-logo"></use>
+                    <use href="./img/icon-sprite.svg#icon-logo"></use>
                 </svg>
                 </a>
                 <div class="nav-list-btn">
@@ -103,96 +103,132 @@
         <section class="special-offer">
             <div class="container">
                 <button class="hero-section-btn" type="button">Order Now</button>
-                <div class="special-offer-picture-wrapper">
-                    <div class="special-offer-picture-apple-wrapper">
-                        <div class="special-offer-apple-wrapper">
-                            <picture class="special-offer-desktop-mobile-picture">
-
-                                <!-- desktop screen -->
-                                <source media="(min-width: 1280px)"
-                                srcset="./img/special-offer/special-offer-apple-desktop.png 1x, ./img/special-offer/special-offer-apple-desktop@2x.png 2x"
+                <div class="special-offer-item-wrapper">
+                    <div class="special-offer-picture-wrapper">
+                        <div class="special-offer-picture-apple-wrapper">
+                            <div class="special-offer-apple-wrapper">
+                                <picture class="special-offer-desktop-mobile-picture">
+    
+                                    <!-- desktop screen -->
+                                    <source media="(min-width: 1280px)"
+                                    srcset="./img/special-offer/special-offer-apple-desktop.png 1x, ./img/special-offer/special-offer-apple-desktop@2x.png 2x"
+                                    type="image/png" />
+                
+                
+                                    <!-- mobile screen -->
+                                    <source mediaa="(max-width: 767px)"
+                                    srcset="./img/special-offer/special-offer-apple-mobile.png 1x, ./img/special-offer/special-offer-apple-mobile@2x.png 2x"
+                                    type="image/png" />
+                
+                
+                                    <img class="special-offer-picture" 
+                                    src="./img/special-offer/special-offer-apple-mobile.png" 
+                                    alt="green apple" 
+                                    loading="lazy" />
+                                </picture>
+                                <img class="special-offer-apple-shadow-mobile-desktop" srcset="
+                                ./img/special-offer/special-offer-apple-shadow-desktop.png 304w,
+                                ./img/special-offer/special-offer-apple-shadow-mobile.png 156w" 
+                                sizes="(max-width: 767px) 156px, (min-width: 1280px) 304px" 
+                                src="./img/special-offer/special-offer-apple-shadow-mobile.png" />
+                            </div>
+                            
+                            
+                                
+                        </div>
+                        
+                        
+                        
+                        
+    
+                        <div class="special-offer-picture-tablet-wrapper">
+                            <!-- tablet screen picture 1 -->
+                            <div class="special-offer-picture-1-wrapper">
+                                <picture>
+                                    <source media="(min-width: 768px) and (max-width: 1279px)" 
+                                srcset="./img/special-offer/special-offer-apple-tablet-1.png 1x, ./img/special-offer/special-offer-apple-tablet-1@2x.png 2x"
                                 type="image/png" />
-            
-            
-                                <!-- mobile screen -->
-                                <source mediaa="(max-width: 767px)"
-                                srcset="./img/special-offer/special-offer-apple-mobile.png 1x, ./img/special-offer/special-offer-apple-mobile@2x.png 2x"
-                                type="image/png" />
-            
             
                                 <img class="special-offer-picture" 
-                                src="./img/special-offer/special-offer-apple-mobile.png" 
-                                alt="green apple" 
-                                loading="lazy" />
-                            </picture>
-                            <img class="special-offer-apple-shadow-mobile-desktop" srcset="
-                            ./img/special-offer/special-offer-apple-shadow-desktop.png 304w,
-                            ./img/special-offer/special-offer-apple-shadow-mobile.png 156w" 
-                            sizes="(max-width: 767px) 156px, (min-width: 1280px) 304px" 
-                            src="./img/special-offer/special-offer-apple-shadow-mobile.png" />
+                                    src="./img/special-offer/special-offer-apple-tablet-1.png" 
+                                    alt="green apple" 
+                                    loading="lazy" />
+                                </picture>
+                                <img class="special-offer-apple-shadow-tablet" src="./img/special-offer//special-offer-apple-shadow-tablet.png" alt="" />
+                            </div>
+                        
+                        
+    
+                        <div class="special-offer-picture-2-3-wrapper">
+                            <!-- tablet screen picture 2 -->
+                        <picture>
+                            <source media="(min-width: 768px) and (max-width: 1279px)" 
+                        srcset="./img/special-offer/special-offer-apple-tablet-2.png 1x, ./img/special-offer/special-offer-apple-tablet-2@2x.png 2x"
+                        type="image/png" />
+    
+                        <img class="special-offer-picture" 
+                            src="./img/special-offer/special-offer-apple-tablet-2.png" 
+                            alt="green apple" 
+                            loading="lazy" />
+                        </picture>
+    
+                        <!-- tablet screen picture 3 -->
+                        <picture>
+                            <source media="(min-width: 768px) and (max-width: 1279px)" 
+                        srcset="./img/special-offer/special-offer-apple-tablet-3.png 1x, ./img/special-offer/special-offer-apple-tablet-3@2x.png 2x"
+                        type="image/jpg" />
+    
+                        <img class="special-offer-picture" 
+                            src="./img/special-offer/special-offer-apple-tablet-3.png" 
+                            alt="green apple" 
+                            loading="lazy" />
+                        </picture>
                         </div>
+    
                         
+    
+                        </div>
+    
                         
+    
+                    </div>
+                    <div class="special-offer-content-wrapper">
+                        <h2 class="special-offer-title">What&#39;s Special About Our Offerings</h2>
+                    <p class="special-offer-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
+                    
+                    <ul class="special-offer-text-wrapper">
+                        <li>
+                            <div class="special-offer-icon">
+                                <svg width="32" height="32">
+                                <use href="./img/icon-sprite.svg#icon-rocket-launch"></use>
+                            </svg></div>
                             
+                            <h3 class="speial-offer-title-3">Fasest Delivery</h3>
+                            <p class="special-offer-text-3">Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within 30-minutes.</p>
+                        </li>
+                        <li>
+                            <div class="special-offer-icon"><svg width="32" height="32">
+                                <use href="./img/icon-sprite.svg#icon-touch-app"></use>
+                            </svg></div>
+                            
+                            <h3 class="speial-offer-title-3">Easy to order</h3>
+                            <p class="special-offer-text-3">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
+    
+                        </li>
+                    </ul>
+                    <div class="special-offer-button-wrapper">
+                        <button class="special-offer-button" type="button">Order Now</button>
+                    <div>
+                        <a class="special-offer-link" href="">Read More &gt;</a>
                     </div>
-                    
-                    
-                    
-                    
-
-                    <div class="special-offer-picture-tablet-wrapper">
-                        <!-- tablet screen picture 1 -->
-                        <div class="special-offer-picture-1-wrapper">
-                            <picture>
-                                <source media="(min-width: 768px) and (max-width: 1279px)" 
-                            srcset="./img/special-offer/special-offer-apple-tablet-1.png 1x, ./img/special-offer/special-offer-apple-tablet-1@2x.png 2x"
-                            type="image/png" />
-        
-                            <img class="special-offer-picture" 
-                                src="./img/special-offer/special-offer-apple-tablet-1.png" 
-                                alt="green apple" 
-                                loading="lazy" />
-                            </picture>
-                            <img class="special-offer-apple-shadow-tablet" src="./img/special-offer//special-offer-apple-shadow-tablet.png" alt="" />
-                        </div>
-                    
-                    
-
-                    <div class="special-offer-picture-2-3-wrapper">
-                        <!-- tablet screen picture 2 -->
-                    <picture>
-                        <source media="(min-width: 768px) and (max-width: 1279px)" 
-                    srcset="./img/special-offer/special-offer-apple-tablet-2.png 1x, ./img/special-offer/special-offer-apple-tablet-2@2x.png 2x"
-                    type="image/png" />
-
-                    <img class="special-offer-picture" 
-                        src="./img/special-offer/special-offer-apple-tablet-2.png" 
-                        alt="green apple" 
-                        loading="lazy" />
-                    </picture>
-
-                    <!-- tablet screen picture 3 -->
-                    <picture>
-                        <source media="(min-width: 768px) and (max-width: 1279px)" 
-                    srcset="./img/special-offer/special-offer-apple-tablet-3.png 1x, ./img/special-offer/special-offer-apple-tablet-3@2x.png 2x"
-                    type="image/jpg" />
-
-                    <img class="special-offer-picture" 
-                        src="./img/special-offer/special-offer-apple-tablet-3.png" 
-                        alt="green apple" 
-                        loading="lazy" />
-                    </picture>
                     </div>
-
-                    
-
                     </div>
-
+    
                     
-
                 </div>
-
-                <h2 class="special-offer-title">What’s Special About Our Offerings</h2>
+                
+                
+                
                 
                 
                 

@@ -311,12 +311,7 @@ button {
     padding-bottom: 60px;
     
 }
-.special-offer-title {
-    color: #2C2C2C;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: normal;
-}
+
 
 @media screen and (min-width: 480px) {
     .special-offer {
@@ -358,6 +353,77 @@ button {
 .special-offer-desktop-mobile-picture {
     position: relative;
     z-index: 999;
+}
+.special-offer-title {
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+    padding-top: 60px;
+}
+.special-offer-text {
+    color: #2C2C2C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 28px;
+}
+.speial-offer-title-3 {
+    color: #2C2C2C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.special-offer-text-3 {
+    color: #2C2C2C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.special-offer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: #FFF;
+    margin-bottom: 8px;
+}
+.special-offer-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+.special-offer-button {
+    color: #2C2C2C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: 2px solid #7EB101;
+    background: #FFF;
+}
+.special-offer-link {
+    color: #000;
+    font-size: 13.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.special-offer-button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 
@@ -627,6 +693,20 @@ button {
     align-items: baseline;
     gap: 44px;
    }
+   .special-offer-text-wrapper {
+    flex-direction: row;
+    margin-bottom: 40px;
+   }
+   .special-offer-title {
+    font-size: 42px;
+    width: 526px;
+    padding-top: 0;
+    margin-bottom: 20px;
+   }
+   .special-offer-text {
+    width: 500px;
+    margin-bottom: 24px;
+   }
    
    
     
@@ -638,6 +718,7 @@ button {
     }
     
 }
+
 
 /* / ======== special offer tablet styles ======== */
 
@@ -754,7 +835,7 @@ button {
     .special-offer-picture-apple-wrapper {
         margin-top: 120px;
         margin-left: 80px;
-        
+        padding-right: 160px;
     }
     .special-offer-apple-wrapper {
         position: relative;
@@ -766,7 +847,53 @@ button {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
+    .special-offer-item-wrapper {
+        display: flex;
+    }
+    .special-offer-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-top: 220px;
+    }
+    .special-offer-title {
+        width: 526px;
+        color: #2C2C2C;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 20px;
+
+    }
+    .special-offer-text {
+        color: #2C2C2C;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 500px;
+        margin-bottom: 40px;
+    }
+    .special-offer-text-wrapper {
+        flex-direction: row;
+        gap: 66px;
+        margin-bottom: 32px;
+    }
+    .speial-offer-title-3 {
+        color:#2C2C2C;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+    }
+    .special-offer-text-3 {
+        width: 253px;
+        color: #2C2C2C;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
     
 }
 
