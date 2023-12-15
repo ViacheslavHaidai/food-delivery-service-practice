@@ -742,7 +742,32 @@ button {
     .special-offer {
         background-image: url(../img/special-offer/special-offer-background-desktop.png);
         background-size: 1280px;
+        
     }
+    .special-offer-picture-wrapper {
+        background-image: url(../img/special-offer/special-offer-apple-background-desktop.png), url(../img/special-offer/special-offer-apple-background-white-cirkle-desktop.png);
+        background-position: 24px 240px, left 216px;
+        background-repeat: no-repeat, no-repeat;
+        padding-top: 40px;
+        padding-bottom: 130px;
+    }
+    .special-offer-picture-apple-wrapper {
+        margin-top: 120px;
+        margin-left: 80px;
+        
+    }
+    .special-offer-apple-wrapper {
+        position: relative;
+        width: 396px;
+    }
+    .special-offer-apple-shadow-mobile-desktop {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
 }
 
 /* / ======== special offer desktop styles ======== */
