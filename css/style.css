@@ -426,8 +426,54 @@ button {
     gap: 24px;
 }
 
-
 /* / ======== special offer mobile styles ======== */
+
+
+
+
+
+/* ======== our favorites ======== */
+
+.our-favorites-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.our-favorites-title {
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.our-favorites-text {
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+}
+@media screen and (max-width: 767px) {
+    .our-favorites-hidden-mobile-pictures-wrapper {
+        display: none;
+    }
+}
+.our-favorites-picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* / ======== our favorites ======== */
 
 
 /* ======== header tablet styles ======== */
@@ -707,20 +753,23 @@ button {
     width: 500px;
     margin-bottom: 24px;
    }
-   
-   
-    
+   .special-offer-desktop-mobile-picture {
+    display: none;
+
 }
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    .special-offer-desktop-mobile-picture {
-        display: none;
-
-    }
-    
-}
-
-
 /* / ======== special offer tablet styles ======== */
+
+
+/* ======== our favorites tablet styles ======== */
+.our-favorites-picture-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+/* / ======== our favorites tablet styles ======== */
+    
+}
+
 
 /* ======== header desktop styles ======== */
 @media screen and (min-width: 1280px) {
@@ -895,7 +944,18 @@ button {
         line-height: 150%;
     }
     
+/* / ======== special offer desktop styles ======== */
+
+
+/* ======== our favorites desktop styles ======== */
+.our-favorites-picture-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+/* / ======== our favorites desktop styles ======== */
+  
 }
 
-/* / ======== special offer desktop styles ======== */
+
 
