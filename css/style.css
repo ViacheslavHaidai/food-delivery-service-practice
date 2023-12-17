@@ -485,6 +485,36 @@ button {
 /* / ======== our favorites mobile styles ======== */
 
 
+
+/* ======== customer reviews mobile styles ======== */
+.customer-reviews {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.customer-reviews-title {
+    color: #2C2C2C;
+font-size: 28px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.customer-reviews-text {
+    color: #2C2C2C;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 32px;
+}
+.customer-opinion {
+    color: #2C2C2C;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+}
+/* / ======== customer reviews mobile styles ======== */
+
+
 /* ======== header tablet styles ======== */
 @media screen and (min-width: 768px) {
     .container {
@@ -809,7 +839,31 @@ button {
     border-radius: 50%;
 }
 /* / ======== our favorites tablet styles ======== */
+
+/* ======== customer reviews mobile styles ======== */
+.customer-reviews-title {
+    color: #2C2C2C;
+font-size: 42px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.customer-reviews-text {
+    color: #2C2C2C;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 32px;
+}
+.customer-opinion {
+    color: #2C2C2C;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+}
     
+/* / ======== customer reviews mobile styles ======== */
+
 }
 
 
@@ -1030,7 +1084,32 @@ button {
     border-radius: 50%;
 }
 /* / ======== our favorites desktop styles ======== */
+
+/* ======== customer reviews mobile styles ======== */
+.customer-reviews-title {
+    color: #2C2C2C;
+font-size: 42px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.customer-reviews-text {
+    color: #2C2C2C;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 32px;
+}
+.customer-opinion {
+    color: #2C2C2C;
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
+}
+
   
+/* / ======== customer reviews mobile styles ======== */
+
 }
 
 
