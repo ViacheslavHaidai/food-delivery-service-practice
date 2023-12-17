@@ -471,6 +471,15 @@ button {
     align-items: center;
     gap: 80px;
 }
+.our-favorites-picture-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 282px;
+    border: 12px solid #FFE550;
+    border-radius: 50%;
+}
 
 
 /* / ======== our favorites mobile styles ======== */
@@ -764,7 +773,7 @@ button {
 .our-favorites-picture-mobile-desktop-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px 100px;
+    gap: 32px 32px;
     align-items: center;
     justify-content: center;
 
@@ -789,6 +798,15 @@ button {
     margin: 0 auto;
     margin-bottom: 60px;
     
+}
+.our-favorites-border-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 336px;
+    height: 338px;
+    border: 14px solid #FFE550;
+    border-radius: 50%;
 }
 /* / ======== our favorites tablet styles ======== */
     
@@ -976,7 +994,7 @@ button {
 .our-favorites-picture-mobile-desktop-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 110px 114px;
+    gap: 32px 32px;
     align-items: center;
     justify-content: center;
 
@@ -1001,6 +1019,15 @@ button {
     margin: 0 auto;
     margin-bottom: 40px;
     
+}
+.our-favorites-border-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 394px;
+    height: 397px;
+    border: 16px solid #FFE550;
+    border-radius: 50%;
 }
 /* / ======== our favorites desktop styles ======== */
   
