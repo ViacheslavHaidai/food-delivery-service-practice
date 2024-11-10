@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
@@ -14,484 +17,639 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Food Service</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <a class="logo" href="./index.html">
-                <svg width="66" height="52">
-                    <use href="./img/icon-sprite.svg#icon-logo"></use>
-                </svg>
-                </a>
-                <div class="nav-list-btn">
-                    <ul class="nav-list">
-                    <li class="nav-list-link"><a class="nav-link" href="">Home</a></li>
-                    <li class="nav-list-link"><a class="nav-link" href="">About</a></li>
-                    <li class="nav-list-link"><a class="nav-link" href="">Service</a></li>
-                    <li class="nav-list-link"><a class="nav-link" href="">Menu</a></li>
-                    <li class="nav-list-link"><a class="nav-link" href="">Contact</a></li>
-                 </ul>
-                    <button class="btn-header" type="button">Order Now</button>
-                </div>
-                    <input class="menu-toggle" type="checkbox" id="toggle" />
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="./index.html">
+            <svg width="66" height="52">
+              <use href="./img/icon-sprite.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <div class="nav-list-btn">
+            <ul class="nav-list">
+              <li class="nav-list-link">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-list-link">
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li class="nav-list-link">
+                <a class="nav-link" href="">Service</a>
+              </li>
+              <li class="nav-list-link">
+                <a class="nav-link" href="">Menu</a>
+              </li>
+              <li class="nav-list-link">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+            <button class="btn-header" type="button">Order Now</button>
+          </div>
+          <input class="menu-toggle" type="checkbox" id="toggle" />
 
-                    <label class="mobile-nav-btn" for="toggle">
-                    <span class="nav-mobile-menu-icon"></span>
-                    </label>
-
-                
-            
-                
-            
-            </nav>
-        
-        </div>
-        
+          <label class="mobile-nav-btn" for="toggle">
+            <span class="nav-mobile-menu-icon"></span>
+          </label>
+        </nav>
+      </div>
     </header>
     <main>
-        
-        <!-- hero section -->
-        <section class="hero-section">
-            <div class="container">
-                <h2 class="hero-title">Enjoy Your Favorite Food From Anywhere
-                </h2>
-                
-                   
-                <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-                
-                    
-                    <div class="hero-picture-wrapper">
-                        
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <h2 class="hero-title">Enjoy Your Favorite Food From Anywhere</h2>
 
-                        <picture class="hero-picture">
-                            
-                            <!-- desktop screen -->
-                            <source media="(min-width: 1280px)"
-                                srcset="./img/hero/hero-picture-desktop-1.jpg 1x, ./img/hero/hero-picture-desktop-1@2x.jpg 2x"
-                                type="image/jpg" />
+          <p class="hero-text">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
 
-                            <!-- tablet screen -->
-                            <source media="(min-width: 768px)"
-                                srcset="./img/hero/hero-picture-tablet-1.jpg 1x, ./img/hero/hero-picture-tablet-1@2x.jpg 2x" 
-                                type="image/jpg" />
-                
-                                
-                            <img class="hero-image" src="./img/hero-picture-tablet-1.jpg" alt="meal example" loading="lazy">
-                        </picture>
-                        
-                        
-                        <button class="hero-button-icon-1" type="button"><span class="hero-icon-1"></span></button>
-                        <button class="hero-button-icon-2" type="button"><span class="hero-icon-2"></span></button>
-                        
-                    </div>
-                
-                
-            </div>
-                
-            
-        </section>
+          <div class="hero-picture-wrapper">
+            <picture class="hero-picture">
+              <!-- desktop screen -->
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./img/hero/hero-picture-desktop-1.jpg    1x,
+                  ./img/hero/hero-picture-desktop-1@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
 
-        <!-- / hero section -->
+              <!-- tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/hero/hero-picture-tablet-1.jpg    1x,
+                  ./img/hero/hero-picture-tablet-1@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
 
-        <!-- special offer -->
+              <img
+                class="hero-image"
+                src="./img/hero-picture-tablet-1.jpg"
+                alt="meal example"
+                loading="lazy"
+              />
+            </picture>
 
-        <section class="special-offer">
-            <div class="container">
-                <button class="hero-section-btn" type="button">Order Now</button>
-                <div class="special-offer-item-wrapper">
-                    <div class="special-offer-picture-wrapper">
-                        <div class="special-offer-picture-apple-wrapper">
-                            <div class="special-offer-apple-wrapper">
-                                <picture class="special-offer-desktop-mobile-picture">
-    
-                                    <!-- desktop screen -->
-                                    <source media="(min-width: 1280px)"
-                                    srcset="./img/special-offer/special-offer-apple-desktop.png 1x, ./img/special-offer/special-offer-apple-desktop@2x.png 2x"
-                                    type="image/png" />
-                
-                
-                                    <!-- mobile screen -->
-                                    <source media="(max-width: 767px)"
-                                    srcset="./img/special-offer/special-offer-apple-mobile.png 1x, ./img/special-offer/special-offer-apple-mobile@2x.png 2x"
-                                    type="image/png" />
-                
-                
-                                    <img class="special-offer-picture" 
-                                    src="./img/special-offer/special-offer-apple-mobile.png" 
-                                    alt="green apple" 
-                                    loading="lazy" />
-                                </picture>
-                                <img class="special-offer-apple-shadow-mobile-desktop" srcset="
-                                ./img/special-offer/special-offer-apple-shadow-desktop.png 304w,
-                                ./img/special-offer/special-offer-apple-shadow-mobile.png 156w" 
-                                sizes="(max-width: 767px) 156px, (min-width: 1280px) 304px" 
-                                src="./img/special-offer/special-offer-apple-shadow-mobile.png" />
-                            </div>
-                            
-                            
-                                
-                        </div>
-                        
-                        
-                        
-                        
-    
-                        <div class="special-offer-picture-tablet-wrapper">
-                            <!-- tablet screen picture 1 -->
-                            <div class="special-offer-picture-1-wrapper">
-                                <picture>
-                                    <source media="(min-width: 768px) and (max-width: 1279px)" 
-                                srcset="./img/special-offer/special-offer-apple-tablet-1.png 1x, ./img/special-offer/special-offer-apple-tablet-1@2x.png 2x"
-                                type="image/png" />
-            
-                                <img class="special-offer-picture" 
-                                    src="./img/special-offer/special-offer-apple-tablet-1.png" 
-                                    alt="green apple" 
-                                    loading="lazy" />
-                                </picture>
-                                <img class="special-offer-apple-shadow-tablet" src="./img/special-offer//special-offer-apple-shadow-tablet.png" alt="" />
-                            </div>
-                        
-                        
-    
-                        <div class="special-offer-picture-2-3-wrapper">
-                            <!-- tablet screen picture 2 -->
-                        <picture>
-                            <source media="(min-width: 768px) and (max-width: 1279px)" 
-                        srcset="./img/special-offer/special-offer-apple-tablet-2.png 1x, ./img/special-offer/special-offer-apple-tablet-2@2x.png 2x"
-                        type="image/png" />
-    
-                        <img class="special-offer-picture" 
-                            src="./img/special-offer/special-offer-apple-tablet-2.png" 
-                            alt="green apple" 
-                            loading="lazy" />
-                        </picture>
-    
-                        <!-- tablet screen picture 3 -->
-                        <picture>
-                            <source media="(min-width: 768px) and (max-width: 1279px)" 
-                        srcset="./img/special-offer/special-offer-apple-tablet-3.png 1x, ./img/special-offer/special-offer-apple-tablet-3@2x.png 2x"
-                        type="image/jpg" />
-    
-                        <img class="special-offer-picture" 
-                            src="./img/special-offer/special-offer-apple-tablet-3.png" 
-                            alt="green apple" 
-                            loading="lazy" />
-                        </picture>
-                        </div>
-    
-                        
-    
-                        </div>
-    
-                        
-    
-                    </div>
-                    <div class="special-offer-content-wrapper">
-                        <h2 class="special-offer-title">What&#39;s Special About Our Offerings</h2>
-                    <p class="special-offer-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
-                    
-                    <ul class="special-offer-text-wrapper">
-                        <li>
-                            <div class="special-offer-icon">
-                                <svg width="32" height="32">
-                                <use href="./img/icon-sprite.svg#icon-rocket-launch"></use>
-                            </svg></div>
-                            
-                            <h3 class="speial-offer-title-3">Fasest Delivery</h3>
-                            <p class="special-offer-text-3">Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within 30-minutes.</p>
-                        </li>
-                        <li>
-                            <div class="special-offer-icon"><svg width="32" height="32">
-                                <use href="./img/icon-sprite.svg#icon-touch-app"></use>
-                            </svg></div>
-                            
-                            <h3 class="speial-offer-title-3">Easy to order</h3>
-                            <p class="special-offer-text-3">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
-    
-                        </li>
-                    </ul>
-                    <div class="special-offer-button-wrapper">
-                        <button class="special-offer-button" type="button">Order Now</button>
-                    <div>
-                        <a class="special-offer-link" href="">Read More &gt;</a>
-                    </div>
-                    </div>
-                    </div>
-    
-                    
+            <button class="hero-button-icon-1" type="button">
+              <span class="hero-icon-1"></span>
+            </button>
+            <button class="hero-button-icon-2" type="button">
+              <span class="hero-icon-2"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- / hero section -->
+
+      <!-- special offer -->
+
+      <section class="special-offer">
+        <div class="container">
+          <button class="hero-section-btn" type="button">Order Now</button>
+          <div class="special-offer-item-wrapper">
+            <div class="special-offer-picture-wrapper">
+              <div class="special-offer-picture-apple-wrapper">
+                <div class="special-offer-apple-wrapper">
+                  <picture class="special-offer-desktop-mobile-picture">
+                    <!-- desktop screen -->
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./img/special-offer/special-offer-apple-desktop.png    1x,
+                        ./img/special-offer/special-offer-apple-desktop@2x.png 2x
+                      "
+                      type="image/png"
+                    />
+
+                    <!-- mobile screen -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./img/special-offer/special-offer-apple-mobile.png    1x,
+                        ./img/special-offer/special-offer-apple-mobile@2x.png 2x
+                      "
+                      type="image/png"
+                    />
+
+                    <img
+                      class="special-offer-picture"
+                      src="./img/special-offer/special-offer-apple-mobile.png"
+                      alt="green apple"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <img
+                    class="special-offer-apple-shadow-mobile-desktop"
+                    srcset="
+                      ./img/special-offer/special-offer-apple-shadow-desktop.png 304w,
+                      ./img/special-offer/special-offer-apple-shadow-mobile.png  156w
+                    "
+                    sizes="(max-width: 767px) 156px, (min-width: 1280px) 304px"
+                    src="./img/special-offer/special-offer-apple-shadow-mobile.png"
+                  />
                 </div>
-                
-                
-                
-                
-                
-                
+              </div>
+
+              <div class="special-offer-picture-tablet-wrapper">
+                <!-- tablet screen picture 1 -->
+                <div class="special-offer-picture-1-wrapper">
+                  <picture>
+                    <source
+                      media="(min-width: 768px) and (max-width: 1279px)"
+                      srcset="
+                        ./img/special-offer/special-offer-apple-tablet-1.png    1x,
+                        ./img/special-offer/special-offer-apple-tablet-1@2x.png 2x
+                      "
+                      type="image/png"
+                    />
+
+                    <img
+                      class="special-offer-picture"
+                      src="./img/special-offer/special-offer-apple-tablet-1.png"
+                      alt="green apple"
+                      loading="lazy"
+                    />
+                  </picture>
+                  <img
+                    class="special-offer-apple-shadow-tablet"
+                    src="./img/special-offer//special-offer-apple-shadow-tablet.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="special-offer-picture-2-3-wrapper">
+                  <!-- tablet screen picture 2 -->
+                  <picture>
+                    <source
+                      media="(min-width: 768px) and (max-width: 1279px)"
+                      srcset="
+                        ./img/special-offer/special-offer-apple-tablet-2.png    1x,
+                        ./img/special-offer/special-offer-apple-tablet-2@2x.png 2x
+                      "
+                      type="image/png"
+                    />
+
+                    <img
+                      class="special-offer-picture"
+                      src="./img/special-offer/special-offer-apple-tablet-2.png"
+                      alt="green apple"
+                      loading="lazy"
+                    />
+                  </picture>
+
+                  <!-- tablet screen picture 3 -->
+                  <picture>
+                    <source
+                      media="(min-width: 768px) and (max-width: 1279px)"
+                      srcset="
+                        ./img/special-offer/special-offer-apple-tablet-3.png    1x,
+                        ./img/special-offer/special-offer-apple-tablet-3@2x.png 2x
+                      "
+                      type="image/jpg"
+                    />
+
+                    <img
+                      class="special-offer-picture"
+                      src="./img/special-offer/special-offer-apple-tablet-3.png"
+                      alt="green apple"
+                      loading="lazy"
+                    />
+                  </picture>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="special-offer-content-wrapper">
+              <h2 class="special-offer-title">
+                What&#39;s Special About Our Offerings
+              </h2>
+              <p class="special-offer-text">
+                With our platform, you can browse through a diverse selection of
+                cuisines and local restaurants, and choose from a variety of
+                dishes that cater to your specific taste buds.
+              </p>
 
-        <!-- / special offer -->
+              <ul class="special-offer-text-wrapper">
+                <li>
+                  <div class="special-offer-icon">
+                    <svg width="32" height="32">
+                      <use
+                        href="./img/icon-sprite.svg#icon-rocket-launch"
+                      ></use>
+                    </svg>
+                  </div>
 
-        <!-- our favorites -->
+                  <h3 class="speial-offer-title-3">Fasest Delivery</h3>
+                  <p class="special-offer-text-3">
+                    Our advanced logistics system and dedicated delivery
+                    partners ensure that your meals are delivered to you within
+                    30-minutes.
+                  </p>
+                </li>
+                <li>
+                  <div class="special-offer-icon">
+                    <svg width="32" height="32">
+                      <use href="./img/icon-sprite.svg#icon-touch-app"></use>
+                    </svg>
+                  </div>
 
-        <section class="our-favorites-section">
-            <div class="container">
-                <h2 class="our-favorites-title">Some of Our Favorites</h2>
-                <p class="our-favorites-text">Looking for something delicious ?</p>
-                <ul class="our-favorites-mobile-picture-wrapper">
-                    <li>
-                        <div class="our-favorites-picture-wrapper">
-                            <picture>
-                                <!-- mobile screen -->
-                                <source
-                                media="(max-width: 767px)"
-                                srcset="./img/our-favorites/our-favorites-mobile-gamburger.png 1x,
-                                        ./img/our-favorites/our-favorites-mobile-gamburger@2x.png 2x"
-                                type="image/png" />
-                                
-                                <img src="./img/our-favorites/our-favorites-mobile-gamburger.png" alt="gamburger" />
-                            </picture>
-                        </div>
-                        
-                    </li>
-                    <li>
-                        <div class="our-favorites-picture-wrapper">
-                            <picture>
-                                <!-- mobile screen -->
-                                <source
-                                media="(max-width: 767px)"
-                                srcset="./img/our-favorites/our-favorites-mobile-pasta.png 1x,
-                                        ./img/our-favorites/our-favorites-mobile-pasta@2x.png 2x"
-                                type="image/png" />
-                                
-                                <img src="./img/our-favorites/our-favorites-mobile-pasta.png" alt="gamburger" />
-                            </picture>
-                        </div>
-                        
-                    </li>
-                    <li>
-                        <div class="our-favorites-picture-wrapper">
-                            <picture>
-                                <!-- mobile screen -->
-                                <source
-                                media="(max-width: 767px)"
-                                srcset="./img/our-favorites/our-favorites-mobile-pizza.png 1x,
-                                        ./img/our-favorites/our-favorites-mobile-pizza@2x.png 2x"
-                                type="image/png" />
-                                
-                                <img src="./img/our-favorites/our-favorites-mobile-pizza.png" alt="gamburger" />
-                            </picture>
-                        </div>
-                        
-                    </li>
-                    
-                </ul>
-                
-                    <ul class="our-favorites-picture-mobile-desktop-wrapper">
-                        <li>
-                            <div class="our-favorites-border-wrapper">
-                                <picture>
-    
-                                    <!-- desktop screen -->
-                                    <source 
-                                    media="(min-width: 1280px)"
-                                    srcset="./img/our-favorites/our-favorites-desktop-gamburger.png 1x,
-                                            ./img/our-favorites/our-favorites-desktop-gamburger@2x.png 2x"
-                                    type="image/png" />
-    
-                                    <!-- tablet screen -->
-                                    <source 
-                                    media="(min-width: 768px) and (max-width: 1279px)"
-                                    srcset="./img/our-favorites/our-favorites-tablet-gamburger.png 1x,
-                                            ./img/our-favorites/our-favorites-tablet-gamburger@2x.png 2x"
-                                    type="image/png" />
-                                    
-                                    <img src="./img/our-favorites/our-favorites-tablet-gamburger.png" alt="gamburger" />
-                                </picture>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="our-favorites-border-wrapper">
-                                <picture>
-                                    <!-- desktop screen -->
-                                    <source 
-                                    media="(min-width: 1280px)"
-                                    srcset="./img/our-favorites/our-favorites-desktop-pasta.png 1x,
-                                            ./img/our-favorites/our-favorites-desktop-pasta@2x.png 2x"
-                                    type="image/png" />
-    
-                                    <!-- tablet screen -->
-                                    <source 
-                                    media="(min-width: 768px) and (max-width: 1279px)"
-                                    srcset="./img/our-favorites/our-favorites-tablet-pasta.png 1x,
-                                            ./img/our-favorites/our-favorites-tablet-pasta@2x.png 2x"
-                                    type="image/png" />
-                                    
-                                    <img src="./img/our-favorites/our-favorites-tablet-pasta.png" alt="gamburger" />
-    
-                                </picture>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="our-favorites-border-wrapper">
-                                <picture>
-                                    <!-- desktop screen -->
-                                    <source 
-                                    media="(min-width: 1280px)"
-                                    srcset="./img/our-favorites/our-favorites-desktop-pizza.png 1x,
-                                            ./img/our-favorites/our-favorites-desktop-pizza@2x.png 2x"
-                                    type="image/png" />
-    
-                                    <!-- tablet screen -->
-                                    <source 
-                                    media="(min-width: 768px) and (max-width: 1279px)"
-                                    srcset="./img/our-favorites/our-favorites-tablet-pizza.png 1x,
-                                            ./img/our-favorites/our-favorites-tablet-pizza@2x.png 2x"
-                                    type="image/png" />
-    
-                                    <img src="./img/our-favorites/our-favorites-tablet-pizza.png" alt="gamburger" />
-                                </picture>
-                            </div>
-                        </li>
-                        
-                            <li>
-                                <div class="our-favorites-border-wrapper">
-                                    <picture>
-                                        <!-- desktop screen -->
-                                        <source 
-                                        media="(min-width: 1280px)"
-                                        srcset="./img/our-favorites/our-favorites-desktop-chicken.png 1x,
-                                                ./img/our-favorites/our-favorites-desktop-chicken@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <!-- tablet screen -->
-                                        <source 
-                                        media="(min-width: 768px) and (max-width: 1279px)"
-                                        srcset="./img/our-favorites/our-favorites-tablet-chicken.png 1x,
-                                                ./img/our-favorites/our-favorites-tablet-chicken@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <img src="./img/our-favorites/our-favorites-tablet-chicken.png" alt="gamburger" />
-                                    </picture>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="our-favorites-border-wrapper">
-                                    <picture>
-                                        <!-- desktop screen -->
-                                        <source 
-                                        media="(min-width: 1280px)"
-                                        srcset="./img/our-favorites/our-favorites-desktop-salat.png 1x,
-                                                ./img/our-favorites/our-favorites-desktop-salat@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <!-- tablet screen -->
-                                        <source 
-                                        media="(min-width: 768px) and (max-width: 1279px)"
-                                        srcset="./img/our-favorites/our-favorites-tablet-salat.png 1x,
-                                                ./img/our-favorites/our-favorites-tablet-salat@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <img src="./img/our-favorites/our-favorites-tablet-salat.png" alt="gamburger" />
-                                    </picture>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="our-favorites-border-wrapper">
-                                    <picture>
-                                        <!-- desktop screen -->
-                                        <source 
-                                        media="(min-width: 1280px)"
-                                        srcset="./img/our-favorites/our-favorites-desktop-borshch.png 1x,
-                                                ./img/our-favorites/our-favorites-desktop-borshch@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <!-- tablet screen -->
-                                        <source 
-                                        media="(min-width: 768px) and (max-width: 1279px)"
-                                        srcset="./img/our-favorites/our-favorites-tablet-borshch.png 1x,
-                                                ./img/our-favorites/our-favorites-tablet-borshch@2x.png 2x"
-                                        type="image/png" />
-        
-                                        <img src="./img/our-favorites/our-favorites-tablet-borshch.png" alt="gamburger" />
-                                    </picture>
-                                </div>
-                            </li>
-                        
-                        
-                    </ul>
-                
-                
-
+                  <h3 class="speial-offer-title-3">Easy to order</h3>
+                  <p class="special-offer-text-3">
+                    You can browse through a wide variety of cuisines and
+                    restaurants, select your favorite meals, and place your
+                    order in just a few clicks.
+                  </p>
+                </li>
+              </ul>
+              <div class="special-offer-button-wrapper">
+                <button class="special-offer-button" type="button">
+                  Order Now
+                </button>
+                <div>
+                  <a class="special-offer-link" href="">Read More &gt;</a>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- / our favorites -->
+          </div>
+        </div>
+      </section>
 
-        <!-- customers reviews -->
+      <!-- / special offer -->
 
-        <section class="customer-reviews">
-            <div class="container">
-                <h2 class="customer-reviews-title">What our Customers Say</h2>
-                <p class="customer-reviews-text">Don't just take our word for it - see what our satisfied customers have to say</p>
-                <ul>
-                    <li>
-                        <svg width="100" height="16">
-                            <use href="./img/icon-sprite.svg#icon-stars"></use>
-                        </svg>
-                        <p class="customer-opinion">&#34;The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked&#34;</p>
-                        <div></div>
-                    </li>
-                    <li>
-                        <svg width="100" height="16">
-                            <use href="./img/icon-sprite.svg#icon-stars"></use>
-                        </svg>
-                        <p class="customer-opinion">&#34;The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app&#34;</p>
-                        <div></div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <!-- our favorites -->
 
-        <!-- / customer reviews -->
+      <section class="our-favorites-section">
+        <div class="container">
+          <h2 class="our-favorites-title">Some of Our Favorites</h2>
+          <p class="our-favorites-text">Looking for something delicious ?</p>
+          <ul class="our-favorites-mobile-picture-wrapper">
+            <li>
+              <div class="our-favorites-picture-wrapper">
+                <picture>
+                  <!-- mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-mobile-gamburger.png    1x,
+                      ./img/our-favorites/our-favorites-mobile-gamburger@2x.png 2x
+                    "
+                    type="image/png"
+                  />
 
-        
+                  <img
+                    src="./img/our-favorites/our-favorites-mobile-gamburger.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-picture-wrapper">
+                <picture>
+                  <!-- mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-mobile-pasta.png    1x,
+                      ./img/our-favorites/our-favorites-mobile-pasta@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-mobile-pasta.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-picture-wrapper">
+                <picture>
+                  <!-- mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-mobile-pizza.png    1x,
+                      ./img/our-favorites/our-favorites-mobile-pizza@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-mobile-pizza.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="our-favorites-picture-mobile-desktop-wrapper">
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-gamburger.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-gamburger@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-gamburger.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-gamburger@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-gamburger.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-pasta.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-pasta@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-pasta.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-pasta@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-pasta.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-pizza.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-pizza@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-pizza.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-pizza@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-pizza.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-chicken.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-chicken@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-chicken.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-chicken@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-chicken.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-salat.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-salat@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-salat.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-salat@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-salat.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li>
+              <div class="our-favorites-border-wrapper">
+                <picture>
+                  <!-- desktop screen -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-desktop-borshch.png    1x,
+                      ./img/our-favorites/our-favorites-desktop-borshch@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <!-- tablet screen -->
+                  <source
+                    media="(min-width: 768px) and (max-width: 1279px)"
+                    srcset="
+                      ./img/our-favorites/our-favorites-tablet-borshch.png    1x,
+                      ./img/our-favorites/our-favorites-tablet-borshch@2x.png 2x
+                    "
+                    type="image/png"
+                  />
+
+                  <img
+                    src="./img/our-favorites/our-favorites-tablet-borshch.png"
+                    alt="gamburger"
+                  />
+                </picture>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- / our favorites -->
+
+      <!-- customers reviews -->
+
+      <section class="customer-reviews">
+        <div class="container">
+          <h2 class="customer-reviews-title">What our Customers Say</h2>
+          <p class="customer-reviews-text">
+            Don't just take our word for it - see what our satisfied customers
+            have to say
+          </p>
+          <ul>
+            <li>
+              <svg width="100" height="16">
+                <use href="./img/icon-sprite.svg#icon-stars"></use>
+              </svg>
+              <p class="customer-opinion">
+                &#34;The Best app I have used to order food in a while, so many
+                options to choose from too, I would recommend to a freind, No
+                questions asked&#34;
+              </p>
+              <div></div>
+            </li>
+            <li>
+              <svg width="100" height="16">
+                <use href="./img/icon-sprite.svg#icon-stars"></use>
+              </svg>
+              <p class="customer-opinion">
+                &#34;The ease with which I can just go in and order what i want
+                was amazing, It has been a very pleasant experience ordering
+                from this app&#34;
+              </p>
+              <div></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- / customer reviews -->
     </main>
 
     <footer></footer>
 
     <div class="mobile-menu">
-        <label class="mobile-nav-close-btn">
-            <span class="nav-mobile-menu-close-btn-icon"></span>
-        </label>           
-        <nav>
-           <ul>
-                <input class="mobile-input-1" type="radio" name="list" id="mobile-list-1">
-                <label class="mobile-label-1" for="mobile-list-1">
-                    <li class="mobile-menu-list"><span class="mobile-list-text">Home</span></li></label>
-                
-                <input class="mobile-input-2" type="radio" name="list" id="mobile-list-2">
-                <label class="mobile-label-2" for="mobile-list-2">
-                    <li class="mobile-menu-list"><span class="mobile-list-text">About</span></li></label>
+      <label class="mobile-nav-close-btn">
+        <span class="nav-mobile-menu-close-btn-icon"></span>
+      </label>
+      <nav>
+        <ul>
+          <input
+            class="mobile-input-1"
+            type="radio"
+            name="list"
+            id="mobile-list-1"
+          />
+          <label class="mobile-label-1" for="mobile-list-1">
+            <li class="mobile-menu-list">
+              <span class="mobile-list-text">Home</span>
+            </li></label
+          >
 
-                <input class="mobile-input-3" type="radio" name="list" id="mobile-list-3">
-                <label class="mobile-label-3" for="mobile-list-3">
-                    <li class="mobile-menu-list"><span class="mobile-list-text">Service</span></li></label>
+          <input
+            class="mobile-input-2"
+            type="radio"
+            name="list"
+            id="mobile-list-2"
+          />
+          <label class="mobile-label-2" for="mobile-list-2">
+            <li class="mobile-menu-list">
+              <span class="mobile-list-text">About</span>
+            </li></label
+          >
 
-                <input class="mobile-input-4" type="radio" name="list" id="mobile-list-4">
-                <label class="mobile-label-4" for="mobile-list-4">
-                    <li class="mobile-menu-list"><span class="mobile-list-text">Menu</span></li></label>
+          <input
+            class="mobile-input-3"
+            type="radio"
+            name="list"
+            id="mobile-list-3"
+          />
+          <label class="mobile-label-3" for="mobile-list-3">
+            <li class="mobile-menu-list">
+              <span class="mobile-list-text">Service</span>
+            </li></label
+          >
 
-                <input class="mobile-input-5" type="radio" name="list" id="mobile-list-5">
-                <label class="mobile-label-5" for="mobile-list-5">
-                    <li class="mobile-menu-list"><span class="mobile-list-text">Contact</span></li></label>
-           </ul>
-        </nav>
+          <input
+            class="mobile-input-4"
+            type="radio"
+            name="list"
+            id="mobile-list-4"
+          />
+          <label class="mobile-label-4" for="mobile-list-4">
+            <li class="mobile-menu-list">
+              <span class="mobile-list-text">Menu</span>
+            </li></label
+          >
+
+          <input
+            class="mobile-input-5"
+            type="radio"
+            name="list"
+            id="mobile-list-5"
+          />
+          <label class="mobile-label-5" for="mobile-list-5">
+            <li class="mobile-menu-list">
+              <span class="mobile-list-text">Contact</span>
+            </li></label
+          >
+        </ul>
+      </nav>
     </div>
-    
-    
-</body>
+  </body>
 </html>
